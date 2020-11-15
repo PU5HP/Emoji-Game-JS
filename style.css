@@ -1,0 +1,107 @@
+#p
+{
+    background-color: teal;
+    color: black;
+    height: 150;
+    width:150;
+    border-radius: 20px ;
+    border: black solid dashed;
+    font-size: xx-large;
+    text-align: center;
+}
+.style
+{
+    width: 180px;
+    height: 40px;
+    background-color: seagreen;
+    color: seashell;
+}
+#result{
+    margin-left:300px;
+    background-color: transparent;
+    font-size: xx-large;
+    
+}
+body
+{
+background-color: tomato;
+}
+.machine
+{
+    height: 300px;
+    width: 900px;
+    background-color: rgb(87, 52, 79);
+    margin: 135px;
+    border: steelblue solid 5px;
+    display: flex;
+    
+}
+.slot
+{
+    height: 250px;
+    width: 250px;
+    background-color: tan;
+    margin: 25px;
+    border: solid 3px purple;
+
+    /*emoji*/
+    
+    font-size: 180px;
+    text-align: center;
+    line-height: 250px;
+    overflow: hidden;
+    
+    /*animation: slotspin 5s infinite;*/
+}
+
+#one
+{
+  /* animation: slotspin 3s infinite;*/
+}
+#two
+{
+    /*animation: slotspin 3s infinite;*/
+}
+#three
+    {
+   /* animation: slotspin 3s infinite;*/
+}
+
+@keyframes slotspin
+{
+    0%
+    {
+        transform: translateY(-200px)
+    }
+    100%
+    {
+        transform: translateY(400px);
+    }
+}
+#start
+{
+    background-color: royalblue;
+    border: salmon solid 3px;
+    text-align: center;
+    height: 80px;
+    width: 100px;
+    margin-left: 200px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: x-large;
+
+}
+
+#retry
+{
+    background-color: royalblue;
+    border: salmon solid 3px;
+    text-align: center;
+    height: 80px;
+    width: 100px;
+    margin-left: 550px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: x-large;
+
+}
